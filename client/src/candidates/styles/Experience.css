@@ -1,0 +1,38 @@
+.experience-container {
+    margin: 20px;
+}
+
+.experience-item {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.experience-details {
+    margin-top: 10px;
+}
+
+.experience-actions button {
+    margin-left: 10px;
+}
+
+.add-experience-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-experience-button:hover {
+    background-color: #0056b3;
+}

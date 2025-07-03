@@ -1,0 +1,15 @@
+/* src/styles/Interests.css */
+
+.interests {
+    margin: 20px 0;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    resize: none;
+  }
+  

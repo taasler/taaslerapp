@@ -1,0 +1,198 @@
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f7f6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.personal-about-me {
+
+  /* display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+   */
+
+  max-width: 1850px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);  
+}
+
+/* About Me Section */
+.about-me-container {
+  margin-bottom: 30px;
+}
+
+.about-me-container h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #444;
+}
+
+.about-me-container textarea {
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  resize: none;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.word-count {
+  text-align: right;
+  font-size: 14px;
+  color: #777;
+  margin-top: 5px;
+}
+
+/* Details Container */
+.details-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Left Column */
+.left-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-info {
+  display: flex;
+  gap: 20px;
+}
+
+.about-me-container h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #444;
+}
+
+.contact-info .sub-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-info input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.roles-of-interest {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.roles-of-interest h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.roles-of-interest textarea {
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  resize: none;
+  background-color: #fff;
+}
+
+/* Right Column */
+.right-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.education,
+.certificates,
+.achievements,
+.interests {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.education h3,
+.certificates h3,
+.achievements h3,
+.interests h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.certificates ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.certificates ul li {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.certificates button {
+  padding: 10px 15px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.certificates button:hover {
+  background-color: #0056b3;
+}
+
+.achievements textarea,
+.interests textarea {
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  resize: none;
+  background-color: #fff;
+}
+
+/* Utility Classes */
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.text-center {
+  text-align: center;
+}

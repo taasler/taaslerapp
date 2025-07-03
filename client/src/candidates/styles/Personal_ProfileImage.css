@@ -1,0 +1,22 @@
+/* src/candidates/styles/Personal_ProfileImage.css */
+
+.profile-image-container {
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  }
+  
+  .profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #021d4f;
+  }
+  

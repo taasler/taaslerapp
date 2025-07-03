@@ -1,0 +1,41 @@
+.experience-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.experience-form label {
+    margin-bottom: 10px;
+}
+
+.experience-form input,
+.experience-form textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.experience-form input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.form-actions button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-actions button:hover {
+    background-color: #0056b3;
+}

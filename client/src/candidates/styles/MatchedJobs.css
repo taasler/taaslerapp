@@ -1,0 +1,17 @@
+/* MatchedJobs.css */
+.matched-jobs {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+  }
+  
+  .job-card {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .job-card:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }

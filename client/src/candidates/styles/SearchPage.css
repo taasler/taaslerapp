@@ -1,0 +1,67 @@
+/* SearchPage.css */
+.search-page {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.search-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.search-panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.search-input {
+  padding: 10px;
+  width: 25%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-btn:hover {
+  background-color: #0056b3;
+}
+
+.advanced-filters-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.advanced-filters-btn:hover {
+  background-color: #218838;
+}
+
+.advanced-filters {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #e9ecef;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.job-results {
+  margin-top: 20px;
+}

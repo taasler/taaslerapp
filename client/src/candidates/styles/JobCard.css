@@ -1,0 +1,47 @@
+/* src/styles/JobCard.css */
+
+.job-card {
+    background-color: #f9f9f9;
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job-card-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .job-image {
+    width: 100px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .job-card-footer {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .apply-button, .wishlist-button {
+    background-color: #021d4f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .apply-button {
+    background-color: #021d4f;
+  }
+  
+  .wishlist-button {
+    background-color: #f56b2a;
+  }
+  

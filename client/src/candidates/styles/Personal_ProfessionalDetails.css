@@ -1,0 +1,87 @@
+/* Import Poppins font 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*/
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f7f6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.skills-container {
+  display: flex;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.hard-skills {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.soft-skills {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.hard-skills h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #444;
+}
+
+.soft-skills h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #444;
+}
+
+.hard-skills textarea {
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  resize: none;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.soft-skills textarea {
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  resize: none;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Left Column */
+.left-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.right-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

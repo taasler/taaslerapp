@@ -1,0 +1,28 @@
+/* src/styles/JobList.css */
+
+.job-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .job-list-column {
+    width: 48%;
+  }
+  
+  .view-more {
+    display: block;
+    margin: 10px auto;
+    background-color: #021d4f;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
